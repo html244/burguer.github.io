@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url(imagensweb/lanchonet.png) ;
+}
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.section {
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.section h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #030201;
+    margin: 50px;
+}
+
+.form {
+    margin-bottom: 1.5rem;
+}
+
+label{
+    font-size: 30px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    font-size: 20px;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 4px;
+}
+
+button {
+    padding: 25px 65px;
+    background-color: #2256ff88;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c19e68f;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #030303;
+    color: white;
+    margin-top: 2px;
+}
+
+.sair a{
+    color: yellow;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-right: 25px;
+}

@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(imagensweb/lanchonet.png);
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 50px;
+    margin-top: -30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card a{
+    color: yellow;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card img{
+ display: block;
+ margin: auto;
+}
+.menu h1{
+    font-size: 50px;
+}
+section {
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.social a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.social:hover {
+    transform: scale(1.2);
+}
+

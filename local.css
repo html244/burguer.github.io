@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+   
+    background: url(imagensweb/lanchonet.png);
+}
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.location, .hours, .photo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+.location h2, .hours h2, .photo h2 {
+    font-size: 45px;
+    color: #050505;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hours img{
+    max-width: 500px;
+    border-radius: 10px;
+}
+.sair a{
+    color: yellow;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-right: 25px;
+}

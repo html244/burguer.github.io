@@ -1,0 +1,47 @@
+
+body{
+    background: url(imagensweb/lanchonet.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.elemento{
+    background-color: rgba(0, 0, 0,0.527);
+    border-radius: 20px;
+    padding: 50px;
+}
+input{
+    font-size: 20px;
+    width: 100%;
+    height: 46px;
+    background-color: transparent;
+    color: aliceblue;
+    
+}
+button{
+    font-size: 20px;
+    padding: 25px 65px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    color: aliceblue;
+}
+button:hover{
+    background: rgba(255, 0, 0, 0.541);
+}
+

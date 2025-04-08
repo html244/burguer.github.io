@@ -1,0 +1,65 @@
+body {
+   background: url(imagensweb/lanchonet.png);
+   background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.texto h1{
+    font-size: 40px;
+}
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+label {
+  
+    font-size: 30px;
+}
+
+textarea{
+    font-size: 24px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.voltar a{
+
+   text-decoration: none;
+   margin-left: 225px;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: yellow;
+
+}
+
